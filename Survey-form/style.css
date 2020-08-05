@@ -1,0 +1,56 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+*{
+  box-sizing: border-box;
+}
+#body{
+ background-color: #05c46b;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+#title{
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+#description{
+  margin-top: 0;
+  color: var(--color-white);
+  font-size: 20px;
+  font-style: italic;
+}
+#form{
+  margin: auto;
+  background-color: white;
+  max-width: 450px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.form-control{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.form-control label{
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+.form-control input{
+  display: block;
+  border: 1px solid #777;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+.form-control button{
+  background-color: #05c46b;
+    width: 100%;
+  display: block;
+  border: 1px solid #05c46b;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
