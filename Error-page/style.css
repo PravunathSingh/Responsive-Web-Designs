@@ -12,6 +12,7 @@
   height: auto;
   display: block;
   margin: auto;
+  border-radius: 20px;
 }
 .message1{
   font-family: 'Space Mono';
