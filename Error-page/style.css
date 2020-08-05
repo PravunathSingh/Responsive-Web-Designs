@@ -19,7 +19,6 @@
   color: #333333;
   display: block;
   text-align: center;
-  line-height: 20px;
 }
 .message2{
   font-family: 'Space Mono';
@@ -28,7 +27,7 @@
   font-weight: light;
   display: block;
   text-align: center;
-  line-height: 20px;
+  line-height: 30px;
 }
 #button{
   display: block;
