@@ -3,28 +3,39 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <html>
-    <body>
+    <body id="body">
         <h1 id="title">FreeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p><br>
         <form id="form">
+          <div class="form-control">
             <label for="name" id="name-label">Name</label>
-                <input type="text" id="name" placeholder="Enter your name" required><br><br>
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+          </div>
+           <div class="form-control">
             <label for="email" id="email-label">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required><br><br>
+                <input type="email" id="email" placeholder="Enter your email" required><br>
+             </div>
+          <div class="form-control">
             <label for="age" id="age-label">Age</label>
-                <input type="number" id="age" min="0" max="100" placeholder="Enter your age" required><br><br>
+                <input type="number" id="age" min="0" max="100000000000000" placeholder="Enter your age" required><br>
+            </div>
+          <div class="form-control">
             <label for="occupation" id="occupation-label">Which option best describes your current role?</label>
             <select name="occupation" id="option">
             <option value="student">Student</option>
             <option value="full-time-job">Full time job</option>
             <option value="prefer-not-to-say">Prefer not to say</option>
             <option value="others">Others</option>
-            </select><br><br>
+            </select><br>
+           </div>
+          <div class="form-control">
             <label for="textarea" id="textarea-label">Any comments or suggestions?</label><br>
-            <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your comment here"></textarea><br><br>
+            <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your comment here"></textarea><br>
+          </div>
+          <div class="form-control">
             <button id="submit">Submit</button>
+          </div>
         </form>
     </body>
 </html>
