@@ -72,10 +72,10 @@ html, body{
 }
 .image img{
     position: absolute;
-    width: 821.11px;
-    height: 586.53px;
-    left: 1395.11px;
-    top: 221px;    
+    width: 50%;
+    height: autopx;
+    left: 700px;
+    top: 150px;    
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(255,255,255, 0.4);
 }
@@ -86,7 +86,7 @@ html, body{
   color: white;
   width: 20%;
   line-height: 25px;
-  margin-top: 480px;
-  left: 1000px;
+  margin-top: 540px;
+  left: 1120px;
   padding: 10px 10px 10px 10px;
 }
